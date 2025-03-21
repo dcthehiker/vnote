@@ -1,0 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h3>释迦果品质口感比较</h3>
+<p>--------------------
+<button id="copyButton" style="color: black;height: 30px;" >复制文字</button>
+</p>
+<div>
+<p>这个释迦果是从网上买的，品质口感就比不上在云南吃到的。</p>
+</div>
+
+<audio controls>
+  <source src="https://whisper.solidunk.top/wspwk/20250321135410.m4a">
+</audio>
+
+<script>
+  document.getElementById('copyButton').addEventListener('click', function() {
+    const textArea = document.querySelector("div");
+    const text = textArea.textContent;
+    navigator.clipboard.writeText(text)
+  });
+</script>
