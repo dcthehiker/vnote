@@ -1,0 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h3>联觉笔记的概念</h3>
+<p>--------------------
+<button id="copyButton" style="color: black;height: 30px;" >复制文字</button>
+</p>
+<div>
+<p>现在，我发现暂时把它定义为“联觉笔记”。联觉本来就是几种感觉能够在人脑中用一种不可思议的机制关联在一起。往往是这样的一种非单一通道的不同感知叠加在一起，能够让你发现新的事物，或者说观测到一些事物的本质。这符合我对于人的直觉、意识管理，以及人在思考的空间中，把一些东西连接在一起之后，自涌现出一些有趣的、有价值的内容。同时，联觉又可以是联系人脑和AI的桥梁，所以我觉得“联觉笔记”这个内涵还是一个不错的词。</p>
+</div>
+
+<audio controls>
+  <source src="https://whisper.solidunk.top/wspwk/20250325220140.m4a">
+</audio>
+
+<script>
+  document.getElementById('copyButton').addEventListener('click', function() {
+    const textArea = document.querySelector("div");
+    const text = textArea.textContent;
+    navigator.clipboard.writeText(text)
+  });
+</script>
