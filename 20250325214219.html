@@ -1,0 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h3>直觉式信息处理与自组织涌现现象</h3>
+<p>--------------------
+<button id="copyButton" style="color: black;height: 30px;" >复制文字</button>
+</p>
+<div>
+<p>今天我还是没有想到一个特别贴切的名字来形容这种把所有的内容放进去，然后运用人独特的、独到的信息处理能力，运用这些直觉的方式来产生自组织涌现的这样的一些现象。像这样的笔记，其实它根本不应该称为笔记，而是一种计算，或者说是一种运算的方式。</p>
+</div>
+
+<audio controls>
+  <source src="https://whisper.solidunk.top/wspwk/20250325214209.m4a">
+</audio>
+
+<script>
+  document.getElementById('copyButton').addEventListener('click', function() {
+    const textArea = document.querySelector("div");
+    const text = textArea.textContent;
+    navigator.clipboard.writeText(text)
+  });
+</script>
