@@ -1,0 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h3>大模型实现多模态状态转化</h3>
+<p>--------------------
+<button id="copyButton" style="color: black;height: 30px;" >复制文字</button>
+</p>
+<div contenteditable="true">
+<p>我们不必再去回避这样的一个现实：大模型已经能够做到符号体系和图像体系之间的模态转化，也就是说，它们已经达到了这样的一种多模态的状态转化的过程。所以，所谓的“一图胜千言”，它们都能做到；千言也能做到，一图也能做到。</p>
+</div>
+
+<audio controls>
+  <source src="https://whisper.solidunk.top/wspwk/20250405222429.m4a">
+</audio>
+
+<script>
+  document.getElementById('copyButton').addEventListener('click', function() {
+    const textArea = document.querySelector("div");
+    const text = textArea.textContent;
+    navigator.clipboard.writeText(text)
+  });
+</script>
