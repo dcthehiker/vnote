@@ -1,0 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h3>认知讲解的误区</h3>
+<p>--------------------
+<button id="copyButton" style="color: black;height: 30px;" >复制文字</button>
+</p>
+<div contenteditable="true">
+<p>如果我非常系统地从学术学科的角度去讲解人的认知，人的认知当中有一块是视觉，人又有具身模拟的这样的能力，这样一块块地讲下去，一个是并不专业，第二个没有什么切中要害的东西，所以这个路子不应该走下去。这些只是自我学习的过程，而真正的要把内容放在自己可以完全有把握的，然后能够真正地贴近别人的需求，或者说让他们误以为能解决问题，但实质上进入到一个更加迷惑的这样的一个阶段。</p>
+</div>
+
+<audio controls>
+  <source src="https://whisper.solidunk.top/wspwk/20250408220234.m4a">
+</audio>
+
+<script>
+  document.getElementById('copyButton').addEventListener('click', function() {
+    const textArea = document.querySelector("div");
+    const text = textArea.textContent;
+    navigator.clipboard.writeText(text)
+  });
+</script>
