@@ -1,0 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h3>讨论人工智能的利弊</h3>
+<p>--------------------
+<button id="copyButton" style="color: black;height: 30px;" >复制文字</button>
+</p>
+<div contenteditable="true">
+<p>针对谁去讲这个故事？你唯一去讲，他有很多超强的能力能够替代人，那么这个就先把自己限制得比较被动。我觉得应该是一种可争论的这样一个话题。也就是说，它到底有没有帮助？它是不是正在无形当中深入到我们的工作学习，然后是不是有一点点可以去利用它的这样一个可能性。所以我觉得应该把这个点摆得比较靠前。</p>
+</div>
+
+<audio controls>
+  <source src="https://whisper.solidunk.top/wspwk/20250415134616.m4a">
+</audio>
+
+<script>
+  document.getElementById('copyButton').addEventListener('click', function() {
+    const textArea = document.querySelector("div");
+    const text = textArea.textContent;
+    navigator.clipboard.writeText(text)
+  });
+</script>
