@@ -1,0 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h3>AI辅助视觉思考方法的应用</h3>
+<p>--------------------
+<button id="copyButton" style="color: black;height: 30px;" >复制文字</button>
+</p>
+<div contenteditable="true">
+<p>如果我去表达这样一个思想：就是我们可以现在用视觉的思考方法去记录一些想法，然后等AI的能力成熟得更加完善的时候，它就可以发挥更大的作用。比如说能够有效地帮我们做整理，然后帮我们提炼出其中的一些核心想法，甚至于帮我们一起来完善这样的思考草图。如果这样讲的话，是不是会显得比较没有主见，或者说是一种暂时等待的状态？</p>
+</div>
+
+<audio controls>
+  <source src="https://whisper.solidunk.top/wspwk/20250415135538.m4a">
+</audio>
+
+<script>
+  document.getElementById('copyButton').addEventListener('click', function() {
+    const textArea = document.querySelector("div");
+    const text = textArea.textContent;
+    navigator.clipboard.writeText(text)
+  });
+</script>
