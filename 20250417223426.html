@@ -1,0 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h3>Second Me：AI大模型下的个人知识结构</h3>
+<p>--------------------
+<button id="copyButton" style="color: black;height: 30px;" >复制文字</button>
+</p>
+<div contenteditable="true">
+<p>为什么要引入Second Me呢？它是一个压缩态的东西，像核桃一样已经被manifold起来的。但在AI大模型的帮助下，它又可以随时展开，所以它更像是一个好用的浓缩态的我的知识结构，我的认知的缩影。</p>
+</div>
+
+<audio controls>
+  <source src="https://whisper.solidunk.top/wspwk/20250417223418.m4a">
+</audio>
+
+<script>
+  document.getElementById('copyButton').addEventListener('click', function() {
+    const textArea = document.querySelector("div");
+    const text = textArea.textContent;
+    navigator.clipboard.writeText(text)
+  });
+</script>
