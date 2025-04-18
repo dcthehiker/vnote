@@ -1,0 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h3>Second Me 的真正意义</h3>
+<p>--------------------
+<button id="copyButton" style="color: black;height: 30px;" >复制文字</button>
+</p>
+<div contenteditable="true">
+<p>把 Second Me 定位在克隆现实的我，我觉得没有意义，而且比较庸俗。管理知识又能怎么样？你的知识体系再丰富、再丰满，它也只是非常小的一部分。我们应该做一次跃迁，把 Second Me 当做你的一个引领，你想成为的那个人，他会怎么想？他的目标是什么？他将会用什么样的知识、什么样的思维去解决现在遇到的现实问题？他是怎么样达到他的目标的？然后让他用可以行动的方案告诉你，你就向这个方向去前进，这才是真正的意义所在。</p>
+</div>
+
+<audio controls>
+  <source src="https://whisper.solidunk.top/wspwk/20250418210746.m4a">
+</audio>
+
+<script>
+  document.getElementById('copyButton').addEventListener('click', function() {
+    const textArea = document.querySelector("div");
+    const text = textArea.textContent;
+    navigator.clipboard.writeText(text)
+  });
+</script>
