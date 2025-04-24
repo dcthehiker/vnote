@@ -1,0 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h3>管理知识与目标</h3>
+<p>--------------------
+<button id="copyButton" style="color: black;height: 30px;" >复制文字</button>
+</p>
+<div contenteditable="true">
+<p>第二，中期，不要过多地去管已经掌握的或者已经接触过的知识。这些是不完整、不成系统的。如果你尝试从自己的已知出发去管理这些知识，那么会被限制在这样的一个范围当中。更可行的是不要去管知识本身，而是要去管理目标。所以，知识只是为了目标进行服务的。</p>
+</div>
+
+<audio controls>
+  <source src="https://whisper.solidunk.top/wspwk/20250424212712.m4a">
+</audio>
+
+<script>
+  document.getElementById('copyButton').addEventListener('click', function() {
+    const textArea = document.querySelector("div");
+    const text = textArea.textContent;
+    navigator.clipboard.writeText(text)
+  });
+</script>
