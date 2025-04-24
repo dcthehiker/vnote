@@ -1,0 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h3>Second Me 的概念与实践</h3>
+<p>--------------------
+<button id="copyButton" style="color: black;height: 30px;" >复制文字</button>
+</p>
+<div contenteditable="true">
+<p>什么是 Second Me？今天又做了一番推演。首先我们还是不要从 Word 出发，上来就去下定义，什么叫做 Second Me，这里面就会遇到很多的问题。我们首先要从这个 Why 出发，就是为什么我要有 Second Me，它是为了让我成为一个我自己想要成为的那个人。那么这里就会涉及到 OKR 管理，涉及到自己的心理辅导，这是 Why。那么有了 Why 之后呢，我怎么样才能够达到这个 Why 这个目标呢？就是 How，How 是什么呢？这里提供了一个方法，就是 Me 和 Second Me 相互关照，他们之间是一种你干活，我看着，你看着，我干活，类似这样子的一种相互关照的作用，所以这就是。</p>
+</div>
+
+<audio controls>
+  <source src="https://whisper.solidunk.top/wspwk/20250424220339.m4a">
+</audio>
+
+<script>
+  document.getElementById('copyButton').addEventListener('click', function() {
+    const textArea = document.querySelector("div");
+    const text = textArea.textContent;
+    navigator.clipboard.writeText(text)
+  });
+</script>
