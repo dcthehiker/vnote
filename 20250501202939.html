@@ -1,0 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h3>知识层次的区分</h3>
+<p>--------------------
+<button id="copyButton" style="color: black;height: 30px;" >复制文字</button>
+</p>
+<div contenteditable="true">
+<p>知识可以分为一阶和二阶，其中二阶知识比一阶知识更高一个维度。一阶知识是零散的、分门别类、静态的描述型知识片段；而二阶知识则是这些知识片段之间的相互关联，打破学科界限的融合，以及在一阶知识基础上的应用指导。</p>
+</div>
+
+<audio controls>
+  <source src="https://whisper.solidunk.top/wspwk/20250501202928.m4a">
+</audio>
+
+<script>
+  document.getElementById('copyButton').addEventListener('click', function() {
+    const textArea = document.querySelector("div");
+    const text = textArea.textContent;
+    navigator.clipboard.writeText(text)
+  });
+</script>
