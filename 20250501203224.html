@@ -1,0 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h3>一阶知识管理的局限性</h3>
+<p>--------------------
+<button id="copyButton" style="color: black;height: 30px;" >复制文字</button>
+</p>
+<div contenteditable="true">
+<p>之前我们讲了很多知识的管理，现在看起来其实都是对一阶知识的管理，也就是说PKM（个人知识管理）当中的K（Knowledge）它是比较低层次的。比如说为了管理一些比较散的知识，于是呢，就发明了所谓的双链，也就是说用关键词把一个知识点和另外一个知识点强行地做了一个连接，或者是用一些分门别类的所谓的Para（分类）这样的方法，让它按照学科、按照这个分类进行一个很好的存储，用非常好的搜索工具能够把内容给提取出来。再有一个就是，比如说我们要管理这些知识，这些知识，它是需要你去打很多的tag（标签），让这种tag（标签）的方法来对知识进行有效的整合。</p>
+</div>
+
+<audio controls>
+  <source src="https://whisper.solidunk.top/wspwk/20250501203214.m4a">
+</audio>
+
+<script>
+  document.getElementById('copyButton').addEventListener('click', function() {
+    const textArea = document.querySelector("div");
+    const text = textArea.textContent;
+    navigator.clipboard.writeText(text)
+  });
+</script>
