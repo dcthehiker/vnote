@@ -1,0 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h3>AI 文章总结与个性化挂载</h3>
+<p>--------------------
+<button id="copyButton" style="color: black;height: 30px;" >复制文字</button>
+</p>
+<div contenteditable="true">
+<p>现在很多人会用AI帮着去做一篇文章的总结，并且让它打上tag，这样的话，就是解决了一个知识压缩的问题。你就可以很容易地把一长篇文章压缩成为一些总结性的句子，然后有一些tag帮助你去知道这个知识点到底是什么。但是这种做法很大的一个问题就是，它不太能够触及到你真正的神经。更好的做法是在总结的时候，把你自己的人格都挂载上去。挂载的意思就是说，把你的偏好、你所关心的领域、你目前要解决的一个问题，或者是你的个性、你的人格，都把它放到一个提示词里头去，让它去做总结。</p>
+</div>
+
+<audio controls>
+  <source src="https://whisper.solidunk.top/wspwk/20250501205824.m4a">
+</audio>
+
+<script>
+  document.getElementById('copyButton').addEventListener('click', function() {
+    const textArea = document.querySelector("div");
+    const text = textArea.textContent;
+    navigator.clipboard.writeText(text)
+  });
+</script>
