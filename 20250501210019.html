@@ -1,0 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h3>AI总结与自我反思</h3>
+<p>--------------------
+<button id="copyButton" style="color: black;height: 30px;" >复制文字</button>
+</p>
+<div contenteditable="true">
+<p>这样的总结效果比单纯的让AI自己去做压缩要好很多。我实践下来，你会发现你真正关心的一些点在原文中是怎么样被表述出来的。然后更重要的是，当你看了这样一份东西，其实你是在看一个你自己是怎么样在读这篇文章的。也就是说，你现在已经把你的注意力关注在你在看，你看的内容到底是什么，也就是说，你是以一个观察者的视角来看待你自己的学习成果，从而产生更多更高阶的反思。</p>
+</div>
+
+<audio controls>
+  <source src="https://whisper.solidunk.top/wspwk/20250501210009.m4a">
+</audio>
+
+<script>
+  document.getElementById('copyButton').addEventListener('click', function() {
+    const textArea = document.querySelector("div");
+    const text = textArea.textContent;
+    navigator.clipboard.writeText(text)
+  });
+</script>
