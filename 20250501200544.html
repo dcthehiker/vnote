@@ -1,0 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h3>人们对AI认知的变化</h3>
+<p>--------------------
+<button id="copyButton" style="color: black;height: 30px;" >复制文字</button>
+</p>
+<div contenteditable="true">
+<p>不过反过来我在想，如果说利用一种人，在追求了一段时间AI的先进性，然后或者AI的这个超强的能力的预期被破灭之后，人们更想要得到的是一种实在的，或者说对自己的认知有更多的变化的，或者是能够引起自己反省的这样的一种念头。它应该是比较轻松的，但是能够让人恍然大悟，或者说让人重新去看待自己的定位。像这样的东西，我觉得也应该是会受到大家欢迎的。</p>
+</div>
+
+<audio controls>
+  <source src="https://whisper.solidunk.top/wspwk/20250501200535.m4a">
+</audio>
+
+<script>
+  document.getElementById('copyButton').addEventListener('click', function() {
+    const textArea = document.querySelector("div");
+    const text = textArea.textContent;
+    navigator.clipboard.writeText(text)
+  });
+</script>
