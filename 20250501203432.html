@@ -1,0 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h3>如何与AI有效配合提升知识管理</h3>
+<p>--------------------
+<button id="copyButton" style="color: black;height: 30px;" >复制文字</button>
+</p>
+<div contenteditable="true">
+<p>我下面要用一些非常简单直观的、实际可以操作的例子来告诉大家，如果说你有了一个很好的观念，你就能够和AI进行一个很好的配合。也就是说，在我加AI，再加second me这样的一个基础上，你就很容易把知识管理从一阶上升到二阶。</p>
+</div>
+
+<audio controls>
+  <source src="https://whisper.solidunk.top/wspwk/20250501203425.m4a">
+</audio>
+
+<script>
+  document.getElementById('copyButton').addEventListener('click', function() {
+    const textArea = document.querySelector("div");
+    const text = textArea.textContent;
+    navigator.clipboard.writeText(text)
+  });
+</script>
