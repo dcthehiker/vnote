@@ -1,0 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h3>利用AI探索跨学科知识关联</h3>
+<p>--------------------
+<button id="copyButton" style="color: black;height: 30px;" >复制文字</button>
+</p>
+<div contenteditable="true">
+<p>有时候人脑会有一些直觉，可能这个领域的某一个知识点和另外一个学科的某一个知识点，可能会存在着一些潜在的关联，但是呢，你又说不出一个所以然。这个时候就可以把这些你觉得有可能有关联的东西，让AI帮你去做融合，它可以去从一个概念，把它解剖成为一系列的小的元素，然后再把这些元素组合起来，看看哪些点真正能够把两个概念或者多个概念混合在一起，形成一个新的空间。</p>
+</div>
+
+<audio controls>
+  <source src="https://whisper.solidunk.top/wspwk/20250501205555.m4a">
+</audio>
+
+<script>
+  document.getElementById('copyButton').addEventListener('click', function() {
+    const textArea = document.querySelector("div");
+    const text = textArea.textContent;
+    navigator.clipboard.writeText(text)
+  });
+</script>
