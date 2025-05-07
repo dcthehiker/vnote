@@ -1,0 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h3>日常任务管理与数字化白板的结合</h3>
+<p>--------------------
+<button id="copyButton" style="color: black;height: 30px;" >复制文字</button>
+</p>
+<div contenteditable="true">
+<p>今天尝试了在日常工作当中列出所要达到的小小任务目标，然后进行逻辑上的推演，一步一步地去探索这种可能性。在必要的时候去做一些任务的预测。现在这个白板可以很容易地被数字化，并且它也能放到AI当中去做一些识别。一旦有了比较靠谱的识别之后，其实这份数据就可以共享给AI了。同时，可以把拍摄下来的照片放到电子白板当中，这样一来，两个之间它是无缝地结合起来了，既做到了日常的目标管理，又达到了电子化。</p>
+</div>
+
+<audio controls>
+  <source src="https://whisper.solidunk.top/wspwk/20250507214616.m4a">
+</audio>
+
+<script>
+  document.getElementById('copyButton').addEventListener('click', function() {
+    const textArea = document.querySelector("div");
+    const text = textArea.textContent;
+    navigator.clipboard.writeText(text)
+  });
+</script>
